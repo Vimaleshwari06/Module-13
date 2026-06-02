@@ -30,11 +30,25 @@ To write a Python program to convert a given Infix expression to Postfix express
 ### PROGRAM
 
 ```
+Reg.no: 212223060304
+Name: Vimaleshwari S
 
+stack = []
+for i in range (5):
+    a=input()
+    stack.append(a)
+print("Stack before elements are popped")
+print(stack)
+print()
+for i in range(2):
+    stack.pop()
+print('Stack after elements are popped:')
+print(stack)
 ```
 
 ### OUTPUT
+<img width="1145" height="300" alt="image" src="https://github.com/user-attachments/assets/38fdc3c8-e4fb-4791-9b69-6f36780b53f9" />
 
 
 ### RESULT
-
+Successfully implemented a stack using Python list. Items were added using append() and removed using pop(), demonstrating LIFO (Last In First Out) behavior of stack.
